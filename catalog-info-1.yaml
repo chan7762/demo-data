@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-component-1
+  title: Sample demo component
+  description: |
+    A components for testing Backstage functionality
+  annotations:
+    github.com/project-slug: roadiehq/demo-data
+    backstage.io/techdocs-ref: https://github.com/RoadieHQ/demo-data/tree/master
+spec:
+  type: service
+  owner: user:roadie
+  lifecycle: experimental
+  providesApis:
+    - demo-component-1
