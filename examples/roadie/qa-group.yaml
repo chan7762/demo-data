@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: qa
+  description: The qa sub-department
+spec:
+  type: sub-department
+  profile:
+    displayName: QA
+    email: qa-engineering-roadie@example.com
+    picture: https://avatars.dicebear.com/api/identicon/backstage@example.com.svg?background=%23fff&margin=25
+  parent: engineering
+  children: [team-a, team-b]

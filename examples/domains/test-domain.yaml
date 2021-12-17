@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: test-domain
+  description: Everything related to user
+spec:
+  owner: user:frank.tiernan
