@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: roadie-corp
-  description: A collection of all Backstage example Groups
+  name: roadie
+  description: A collection of all example Groups
 spec:
   targets:
     - ./roadie/org.yaml

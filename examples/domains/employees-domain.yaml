@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: Employees
+  description: Everything related to employees
+  links:
+    - url: http://example.com/domain/employees/
+      title: Domain Readme
+spec:
+  owner: team-a

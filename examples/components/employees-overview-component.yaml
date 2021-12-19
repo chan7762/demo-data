@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: artist-lookup
-  description: Artist Lookup
+  name: employees-overview
+  description: Employees Overview
   tags:
     - java
     - data
@@ -13,9 +13,6 @@ metadata:
     - url: https://example.com/group
       title: Example Group
       icon: group
-    - url: https://example.com/cloud
-      title: Link with Cloud Icon
-      icon: cloud
     - url: https://example.com/dashboard
       title: Dashboard
       icon: dashboard
@@ -32,5 +29,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-a
-  system: artist-engagement-portal
-  dependsOn: ['resource:artists-db']
+  system: employees-portal
+  dependsOn: ['resource:employees-db']

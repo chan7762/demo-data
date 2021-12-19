@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: www-engineers
+  name: all-engineers
   description: Engineers main website
 spec:
   type: website
   lifecycle: production
   owner: team-a
-  system: engineers-engagement-portal
+  system: employees-portal

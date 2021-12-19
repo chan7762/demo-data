@@ -2,11 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: marketing
-  description: The marketing department
+  description: The marketing sub-department
 spec:
-  type: department
+  type: sub-department
   profile:
-    displayName: Marketing
+    displayName: Marketing Office
     email: roadie-marketing@example.com
-    picture: https://avatars.dicebear.com/api/identicon/backstage@example.com.svg?background=%23fff&margin=25
-  parent: roadie-corp
+  parent: infrastructure
+  children: [team-c, team-d]
