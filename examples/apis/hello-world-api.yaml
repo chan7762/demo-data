@@ -5,7 +5,6 @@ metadata:
   description: Hello World example for gRPC
 spec:
   type: grpc
-  lifecycle: deprecated
   owner: team-c
   definition: |
     // Copyright 2015 gRPC authors.
