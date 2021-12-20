@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: infrastructure
-  description: The infra department
+  description: The infrastructure department, divided on engineers and marketing sub-departments.
 spec:
   type: department
   # Intentional no profile for testing

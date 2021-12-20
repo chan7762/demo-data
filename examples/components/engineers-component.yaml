@@ -6,5 +6,5 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: team-a
+  owner: team-alpha
   system: employees-portal

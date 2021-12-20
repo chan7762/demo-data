@@ -20,13 +20,13 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: example-groups
-  description: A collection of all Backstage example Groups
+  description: A collection of all group existing in the roadie org
 spec:
   targets:
     - ./infrastructure-group.yaml
     - ./marketing-group.yaml
     - ./engineers-group.yaml
-    - ./team-a-group.yaml
-    - ./team-b-group.yaml
-    - ./team-c-group.yaml
-    - ./team-d-group.yaml
+    - ./team-alpha-group.yaml
+    - ./team-bravo-group.yaml
+    - ./team-charlie-group.yaml
+    - ./team-delta-group.yaml

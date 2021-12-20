@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: team-c
+  name: team-charlie
   description: Team C
 spec:
   type: team
   profile:
     displayName: Team C
-    email: team-c@example.com
-    picture: https://avatars.dicebear.com/api/identicon/team-c@example.com.svg?background=%23fff&margin=25
+    email: team-charlie@example.com
+    picture: https://avatars.dicebear.com/api/identicon/team-charlie@example.com.svg?background=%23fff&margin=25
   parent: marketinf
   children: []
 ---
@@ -21,7 +21,7 @@ spec:
     displayName: Calum Leavy
     email: calum-leavy@example.com
     picture: https://avatars.dicebear.com/api/avataaars/calum-leavy@example.com.svg?background=%23fff
-  memberOf: [team-c]
+  memberOf: [team-charlie]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -32,7 +32,7 @@ spec:
     displayName: Frank Tiernan
     email: frank-tiernan@example.com
     picture: https://avatars.dicebear.com/api/avataaars/frank-tiernan@example.com.svg?background=%23fff
-  memberOf: [team-c]
+  memberOf: [team-charlie]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -43,7 +43,7 @@ spec:
     displayName: Peadar MacMahon
     email: peadar-macmahon@example.com
     picture: https://avatars.dicebear.com/api/avataaars/peadar-macmahon@example.com.svg?background=%23fff
-  memberOf: [team-c]
+  memberOf: [team-charlie]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -54,7 +54,7 @@ spec:
     displayName: Sarah Gilroy
     email: sarah-gilroy@example.com
     picture: https://avatars.dicebear.com/api/avataaars/sarah-gilroy@example.com.svg?background=%23fff
-  memberOf: [team-c]
+  memberOf: [team-charlie]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -65,4 +65,4 @@ spec:
     displayName: Tara MacGovern
     email: tara-macgovern@example.com
     picture: https://avatars.dicebear.com/api/avataaars/tara-macgovern@example.com.svg?background=%23fff
-  memberOf: [team-c]
+  memberOf: [team-charlie]

@@ -28,6 +28,6 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: team-a
+  owner: team-alpha
   system: employees-portal
   dependsOn: ['resource:employees-db']

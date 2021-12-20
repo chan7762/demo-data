@@ -5,7 +5,7 @@ metadata:
   description: Hello World example for gRPC
 spec:
   type: grpc
-  owner: team-c
+  owner: team-charlie
   definition: |
     // Copyright 2015 gRPC authors.
     //

@@ -5,5 +5,5 @@ metadata:
   description: Stores employees details
 spec:
   type: database
-  owner: team-a
+  owner: team-alpha
   system: employees-portal
