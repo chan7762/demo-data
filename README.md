@@ -2,4 +2,4 @@
 
 # Demo data
 
-A set of example entitites are used as demo data in order to demonstrate basic Backstage features.
+This repository contains a set of example Backstage entities for use as demo data for the Roadie service. This is used for customers / potential customers for use while evaluating Roadie's Backstage service.
