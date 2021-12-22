@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: hello-world
+  lifecycle: production
   description: Hello World example for gRPC
 spec:
   type: grpc
