@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-apis
+  description: A collection of demo data.
+spec:
+  targets:
+    - ./apis/hello-world-api.yaml
+    - ./apis/wayback-archive-api.yaml
+    - ./apis/wayback-search-api.yaml
+    - ./components/employees-overview-component.yaml
+    - ./components/engineers-component.yaml
+    - ./components/wayback-archive-component.yaml
+    - ./components/wayback-archive-ingestion-component.yaml
+    - ./components/wayback-archive-storage-component.yaml
+    - ./components/wayback-search-component.yaml
+    - ./domains/employees-domain.yaml
+    - ./domains/customers-domain.yaml
+    - ./resources/employees-db-resource.yaml
+    - ./systems/employees-portal-system.yaml
+    - ./systems/customers-system.yaml
+    - ./roadie/org.yaml
