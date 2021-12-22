@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: customers-system
+  description: Everything related to the current customers, trial customers etc
+spec:
+  owner: team-charlie
+  domain: customers

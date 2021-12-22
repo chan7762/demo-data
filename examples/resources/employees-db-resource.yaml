@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: employees-db
+  description: Stores employees details
+spec:
+  type: database
+  owner: team-alpha
+  system: employees-portal

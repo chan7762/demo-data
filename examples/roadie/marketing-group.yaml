@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: marketing
+  description: The marketing sub-department
+spec:
+  type: sub-department
+  profile:
+    displayName: Marketing Office
+    email: roadie-marketing@example.com
+  parent: infrastructure
+  children: [team-charlie, team-delta]

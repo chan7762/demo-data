@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: engineers
+  description: The engineers sub-department
+spec:
+  type: sub-department
+  profile:
+    displayName: Engineers
+    email: roadie-engineers@example.com
+    picture: https://avatars.dicebear.com/api/identicon/backstage@example.com.svg?background=%23fff&margin=25
+  parent: infrastructure
+  children: [team-alpha, team-bravo]

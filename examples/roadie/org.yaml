@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: roadie
+  description: The roadie organization
+  links:
+    - url: http://www.roadie.io/
+      title: Website
+    - url: https://meta.wikimedia.org/wiki/
+      title: Intranet
+spec:
+  type: organization
+  profile:
+    displayName: Roadie
+    email: info@example.com
+    picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
+  children: [infrastructure]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-groups
+  description: A collection of all group existing in the roadie org
+spec:
+  targets:
+    - ./infrastructure-group.yaml
+    - ./marketing-group.yaml
+    - ./engineers-group.yaml
+    - ./team-alpha-group.yaml
+    - ./team-bravo-group.yaml
+    - ./team-charlie-group.yaml
+    - ./team-delta-group.yaml

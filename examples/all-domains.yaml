@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-domains
+  description: A collection of example domains
+spec:
+  targets:
+    - ./domains/employees-domain.yaml
+    - ./domains/customers-domain.yaml

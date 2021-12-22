@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-components
+  description: A collection of all example components
+spec:
+  targets:
+    - ./components/employees-overview-component.yaml
+    - ./components/engineers-component.yaml
+    - ./components/wayback-archive-component.yaml
+    - ./components/wayback-archive-ingestion-component.yaml
+    - ./components/wayback-archive-storage-component.yaml
+    - ./components/wayback-search-component.yaml
