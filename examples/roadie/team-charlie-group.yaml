@@ -9,7 +9,7 @@ spec:
     displayName: Team C
     email: team-charlie@example.com
     picture: https://avatars.dicebear.com/api/identicon/team-charlie@example.com.svg?background=%23fff&margin=25
-  parent: marketinf
+  parent: marketing
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
