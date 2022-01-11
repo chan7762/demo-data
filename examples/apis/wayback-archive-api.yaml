@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: wayback-archive
+  title: Wayback archive API
   description: Archive API for the wayback machine
 spec:
   type: openapi

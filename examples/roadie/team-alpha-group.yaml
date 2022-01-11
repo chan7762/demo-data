@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: team-alpha
+  title: Team Alpha
   description: Team A
 spec:
   type: team

@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
   name: employees-db
+  title: Employees db resource
   description: Stores employees details
 spec:
   type: database

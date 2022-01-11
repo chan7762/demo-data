@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: all-demo-data
+  title: All demo data
   description: A collection of demo data.
 spec:
   targets:

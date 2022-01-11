@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: wayback-search
+  title: Wayback search API
   description: Search API for the wayback machine
 spec:
   type: openapi

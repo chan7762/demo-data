@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: wayback-archive
+  title: Wayback archive
   description: Archive of the wayback machine
 spec:
   type: service

@@ -1,6 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
+  title: Team Charlie
   name: team-charlie
   description: Team C
 spec:
