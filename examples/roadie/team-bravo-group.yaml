@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: team-bravo
+  title: Team Bravo
   description: Team B
 spec:
   type: team

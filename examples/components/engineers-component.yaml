@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: all-engineers
+  title: All engineers
   description: Engineers main website
 spec:
   type: website

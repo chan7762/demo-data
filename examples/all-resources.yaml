@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: example-resources
+  title: Example resources
   description: A collection of all example resources
 spec:
   targets:

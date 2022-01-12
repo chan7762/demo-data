@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: employees-overview
+  title: Employees overview
   description: Employees Overview
   tags:
     - java

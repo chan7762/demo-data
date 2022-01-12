@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: customers
+  title: Customers domain
   description: Everything related to customers experience
 spec:
   owner: user:frank.tiernan
