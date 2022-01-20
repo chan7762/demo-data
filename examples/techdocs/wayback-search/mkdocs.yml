@@ -1,0 +1,8 @@
+site_name: 'Wayback-search component'
+site_description: 'Documentation for the wayback-search component'
+
+plugins:
+  - techdocs-core
+
+nav:
+  - Overview: index.md
