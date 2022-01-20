@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: test-api
+  title: test search API
+  description: Search API test
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-alpha
+  definition:
+    $text: https://api.apis.guru/v2/specs/github.com/1.1.4/openapi.json
