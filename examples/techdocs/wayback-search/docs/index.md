@@ -10,21 +10,21 @@ It's cool isn't it?
 
 Look at this lovely cat!
 
-![This is a pretty cute cat](./cute-cat.png)
+![This is a pretty cute cat](./cute-dog.png)
 
-We can also link you to a lovely video of a cat: [this is a lovely cat video](https://www.youtube.com/watch?v=cbP2N1BQdYc)
+We can also link you to a lovely video of a cat: [this is a lovely cat video](https://www.youtube.com/watch?v=W-J-LSWQL-o)
 
 
 # Relationship diagrams
 
-```plantuml format="png" classes="uml myDiagram" alt="Roadie" title="My super diagram" width="300px" height="300px"
-  Roadie ->  Cats: loves
-  Roadie <-- Cats: Returns love
+```plantuml format="png" classes="uml myDiagram" alt="Roadie" title="Look at this! Built with plantUML" width="300px" height="300px"
+  Roadie ->  Dogs: loves
+  Roadie <-- Dogs: Returns love
 ```
 
-::uml:: format="png" classes="uml myDiagram" alt="My super diagram placeholder" title="My super diagram" width="300px" height="300px"
-  Roadie ->  Cats: loves
-  Roadie <-- Cats: Returns love
+::uml:: format="png" classes="uml myDiagram" alt="My super diagram placeholder" title="Look at this! Another diagram built with UML" width="300px" height="300px"
+  Roadie ->  Dogs: loves
+  Roadie <-- Dogs: Returns love
 ::end-uml::
 
 # Code blocks
@@ -32,14 +32,14 @@ We can also link you to a lovely video of a cat: [this is a lovely cat video](ht
 ``` bash
 #!/bin/bash
 
-function doesRoadieLoveCats(){
+function doesRoadieLoveDogs(){
   return 1
 }
 
-if [ doesRoadieLoveCats ];then
-  echo "Roadie really loves cats and the world is better for it!"
+if [ doesRoadieLoveDogs ];then
+  echo "Roadie really loves dogs and the world is better for it!"
 else
-  echo "There is no way roadie doesn't love cats >:("
+  echo "There is no way roadie doesn't love dogs >:("
 fi
 
 exit 1;
