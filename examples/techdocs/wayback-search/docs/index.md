@@ -8,11 +8,11 @@ It's cool isn't it?
 
 # Assets, links
 
-Look at this lovely cat!
+Look at this lovely dog!
 
-![This is a pretty cute cat](./cute-dog.png)
+![This is a pretty cute dog](./cute-dog.png)
 
-We can also link you to a lovely video of a cat: [this is a lovely cat video](https://www.youtube.com/watch?v=W-J-LSWQL-o)
+We can also link you to a lovely video of a dog: [this is a lovely dog video](https://www.youtube.com/watch?v=W-J-LSWQL-o)
 
 
 # Relationship diagrams
