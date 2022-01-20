@@ -9,4 +9,4 @@ spec:
   lifecycle: production
   owner: team-alpha
   definition:
-    $text: https://api.apis.guru/v2/specs/github.com/1.1.4/openapi.yaml
+    $text: https://api.apis.guru/v2/specs/github.com/1.1.4/openapi.json
