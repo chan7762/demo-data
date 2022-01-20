@@ -3,10 +3,10 @@ kind: API
 metadata:
   name: wayback-search
   title: Wayback search API
-  description: Search API for the wayback machine
+  description: An example of an API interface with OpenAPI format.
 spec:
   type: openapi
   lifecycle: production
   owner: team-alpha
   definition:
-    $text: https://github.com/APIs-guru/openapi-directory/blob/main/APIs/archive.org/search/1.0.0/openapi.yaml
+    $text: https://github.com/APIs-guru/openapi-directory/blob/dab6854d4d599aafb0eb36e6c7ae1fe0c37509b7/APIs/twitter.com/current/2.8/openapi.yaml
