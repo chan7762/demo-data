@@ -9,6 +9,7 @@ metadata:
   tags:
     - java
     - data
+    - demo
   links:
     - url: https://example.com/user
       title: Examples Users

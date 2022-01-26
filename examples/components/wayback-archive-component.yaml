@@ -6,6 +6,9 @@ metadata:
   description: Archive of the wayback machine
   annotations:
     github.com/project-slug: roadiehq/demo-data
+  tags:
+    - go
+    - demo
 spec:
   type: service
   lifecycle: production

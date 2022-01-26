@@ -6,6 +6,9 @@ metadata:
   description: Ingestion subsystem of the Wayback Archive
   annotations:
     github.com/project-slug: roadiehq/demo-data
+  tags:
+    - java
+    - demo
 spec:
   type: service
   lifecycle: production
