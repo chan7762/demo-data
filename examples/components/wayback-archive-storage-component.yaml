@@ -4,6 +4,8 @@ metadata:
   name: wayback-archive-storage
   title: Wayback archive storage
   description: Storage subsystem of the Wayback Archive
+  annotations:
+    github.com/project-slug: roadiehq/demo-data
 spec:
   type: service
   lifecycle: production
