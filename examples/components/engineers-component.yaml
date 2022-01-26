@@ -4,6 +4,9 @@ metadata:
   name: all-engineers
   title: All engineers
   description: Engineers main website
+  tags:
+    - java
+    - demo
 spec:
   type: website
   lifecycle: production
