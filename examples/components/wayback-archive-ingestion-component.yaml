@@ -4,6 +4,8 @@ metadata:
   name: wayback-archive-ingestion
   title: Wayback archive ingestion
   description: Ingestion subsystem of the Wayback Archive
+  annotations:
+    github.com/project-slug: roadiehq/demo-data
 spec:
   type: service
   lifecycle: production

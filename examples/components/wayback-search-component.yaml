@@ -6,6 +6,7 @@ metadata:
   description: Search of the wayback machine
   annotations:
     backstage.io/techdocs-ref: dir:../techdocs/wayback-search
+    github.com/project-slug: roadiehq/demo-data
 spec:
   type: service
   lifecycle: production

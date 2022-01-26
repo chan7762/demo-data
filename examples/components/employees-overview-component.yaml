@@ -4,6 +4,8 @@ metadata:
   name: employees-overview
   title: Employees overview
   description: Employees Overview
+  annotations:
+    github.com/project-slug: roadiehq/demo-data
   tags:
     - java
     - data
