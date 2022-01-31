@@ -6,4 +6,4 @@ This repository contains a set of example Backstage entities for use as demo dat
 
 # Demo pull request
 
-This is an example of pučč request.
+This is an example of pull request.
