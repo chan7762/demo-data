@@ -4,6 +4,7 @@ metadata:
   name: employees-overview
   title: Employees overview
   description: Employees Overview
+  etag: MTNiM2VlZmUtNzVhNC00YjM1LTg3YmItZTFhMTgxOWY0M2Fk
   annotations:
     github.com/project-slug: roadiehq/demo-data
   tags:
