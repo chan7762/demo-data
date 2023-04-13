@@ -5,8 +5,8 @@ metadata:
   title: Wayback search API
   description: An example of an API interface with OpenAPI format.
 spec:
-  type: openapi
+  type: Provider
   lifecycle: production
-  owner: team-alpha
+  owner: ECOMM
   definition:
     $text: https://github.com/APIs-guru/openapi-directory/blob/dab6854d4d599aafb0eb36e6c7ae1fe0c37509b7/APIs/twitter.com/current/2.8/openapi.yaml
